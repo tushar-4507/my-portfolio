@@ -1,0 +1,65 @@
+/* ====== Normal Desktop Styling ====== */
+/* (your full CSS as you shared — no problem here) */
+
+
+/* ====== Mobile Devices Fixing (below 575px) ====== */
+
+@media only screen and (max-width: 575px) {
+  
+  .homePage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    padding: 20px;
+  }
+
+  .profile-img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+
+  .home-txt {
+    margin-top: 20px;
+    font-size: 2.5rem; /* 2.5rem = 40px */
+  }
+
+  .home-txt h1 {
+    font-size: 2rem; /* around 32px */
+    font-weight: 700;
+    margin: 10px 0;
+  }
+
+  .home-txt h2 {
+    font-size: 1.2rem; /* around 19px */
+    margin-top: 10px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .edu-exp-heading {
+    font-size: 22px;
+  }
+
+  .timeline-title {
+    font-size: 18px;
+  }
+
+  .timeline-subtitle,
+  .timeline-description {
+    font-size: 14px;
+  }
+}
+
+/* ====== Tablets and above (768px) ====== */
+@media (min-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
