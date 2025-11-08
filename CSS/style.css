@@ -212,3 +212,10 @@ h3 {
 .fab {
   margin-top: 8px;
 }
+
+.weblink {
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  text-align: center;
+}
